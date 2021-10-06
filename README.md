@@ -1,1 +1,1 @@
-# spring-boot-aws-cognito-multi-tenancy-
+# spring-boot-aws-cognito-multi-tenancy
