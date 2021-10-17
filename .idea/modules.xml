@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-aws-cognito-multi-tenancy.iml" filepath="$PROJECT_DIR$/spring-boot-aws-cognito-multi-tenancy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tenant-manager/tenant-manager.iml" filepath="$PROJECT_DIR$/tenant-manager/tenant-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-manager/user-manager.iml" filepath="$PROJECT_DIR$/user-manager/user-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
+    </modules>
+  </component>
+</project>
