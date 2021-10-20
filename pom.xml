@@ -22,10 +22,49 @@
 	<description>aws multitenant cognito dynamodb</description>
 	<properties>
 		<java.version>11</java.version>
+		<apache.commons.version>3.12.0</apache.commons.version>
+		<apache.commons-collections4.version>4.4</apache.commons-collections4.version>
+		<aws.java.sdk.dynamodb.version>1.12.85</aws.java.sdk.dynamodb.version>
+		<spring.data.dynamodb.version>5.0.4</spring.data.dynamodb.version>
+		<aws.java.sdk.cognitoidp.version>1.12.85</aws.java.sdk.cognitoidp.version>
 	</properties>
-<!--	<dependencies>
 
-	</dependencies>-->
+
+	<dependencies>
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
+		</dependency>
+
+		<!-- validator -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-validation</artifactId>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>${apache.commons.version}</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-collections4 -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-collections4</artifactId>
+			<version>${apache.commons-collections4.version}</version>
+		</dependency>
+
+		<!-- Configuration Property -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-configuration-processor</artifactId>
+			<optional>true</optional>
+		</dependency>
+
+	</dependencies>
 
 
 </project>
