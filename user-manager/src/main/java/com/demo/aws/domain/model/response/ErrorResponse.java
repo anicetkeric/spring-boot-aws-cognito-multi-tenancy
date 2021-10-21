@@ -15,7 +15,7 @@ import lombok.*;
 @ToString
 @Builder
 public class ErrorResponse {
-    private Object data;
+
     /**
      * error code
      */
@@ -25,4 +25,11 @@ public class ErrorResponse {
      */
     private String message;
 
+    /**
+     * More details about the error here
+     */
+    private String description;
+
+
+    private Object errors;
 }
