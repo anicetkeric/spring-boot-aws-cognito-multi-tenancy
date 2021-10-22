@@ -1,4 +1,4 @@
-package com.demo.aws.domain.model.response;
+package com.demo.aws.domain.response;
 
 import lombok.*;
 

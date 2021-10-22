@@ -1,4 +1,4 @@
-package com.demo.aws.domain.model;
+package com.demo.aws.domain.request;
 
 import lombok.Data;
 

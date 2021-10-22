@@ -1,9 +1,9 @@
-package com.demo.aws.domain.model.response;
+package com.demo.aws.domain.response;
 
 import lombok.*;
 
 /**
- * <h2>SuccessResponse</h2>
+ * <h2>ErrorResponse</h2>
  *
  * @author aek
  * <p>

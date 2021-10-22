@@ -1,6 +1,6 @@
 package com.demo.aws.filter;
 
-import com.demo.aws.domain.model.TenantContext;
+import com.demo.aws.TenantContext;
 import com.demo.aws.exceptions.TenantAliasNotFoundException;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;

@@ -2,10 +2,14 @@ package com.demo.aws.service.impl;
 
 import com.amazonaws.services.cognitoidp.model.AdminInitiateAuthResult;
 import com.amazonaws.services.cognitoidp.model.UserType;
+import com.demo.aws.TenantContext;
 import com.demo.aws.domain.TenantMaster;
 import com.demo.aws.domain.model.*;
-import com.demo.aws.domain.model.response.AuthenticatedResponse;
-import com.demo.aws.domain.model.response.SuccessResponse;
+import com.demo.aws.domain.request.AuthenticatedChallenge;
+import com.demo.aws.domain.request.Login;
+import com.demo.aws.domain.request.UserSignUp;
+import com.demo.aws.domain.response.AuthenticatedResponse;
+import com.demo.aws.domain.response.SuccessResponse;
 import com.demo.aws.exceptions.TenantDataNotFoundException;
 import com.demo.aws.exceptions.UserNotFoundException;
 import com.demo.aws.service.CognitoUserService;

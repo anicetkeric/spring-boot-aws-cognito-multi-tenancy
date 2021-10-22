@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.demo.aws.domain.model;
+package com.demo.aws;
 
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
