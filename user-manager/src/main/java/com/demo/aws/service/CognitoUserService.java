@@ -5,7 +5,7 @@ import com.amazonaws.services.cognitoidp.model.AdminInitiateAuthResult;
 import com.amazonaws.services.cognitoidp.model.GlobalSignOutResult;
 import com.amazonaws.services.cognitoidp.model.UserType;
 import com.demo.aws.domain.model.CognitoCredentials;
-import com.demo.aws.domain.model.UserSignUp;
+import com.demo.aws.domain.request.UserSignUp;
 
 import java.util.Optional;
 

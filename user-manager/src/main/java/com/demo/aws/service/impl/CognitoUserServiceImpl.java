@@ -4,7 +4,7 @@ import com.amazonaws.services.cognitoidp.AWSCognitoIdentityProvider;
 import com.amazonaws.services.cognitoidp.model.*;
 import com.demo.aws.domain.enums.CognitoAttributesEnum;
 import com.demo.aws.domain.model.CognitoCredentials;
-import com.demo.aws.domain.model.UserSignUp;
+import com.demo.aws.domain.request.UserSignUp;
 import com.demo.aws.exceptions.FailedAuthenticationException;
 import com.demo.aws.exceptions.ServiceException;
 import com.demo.aws.service.CognitoUserService;
@@ -19,8 +19,6 @@ import java.util.Base64;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
-
-//import static com.amazonaws.services.cognitoidp.model.ChallengeNameType.NEW_PASSWORD_REQUIRED;
 
 @RequiredArgsConstructor
 @Slf4j

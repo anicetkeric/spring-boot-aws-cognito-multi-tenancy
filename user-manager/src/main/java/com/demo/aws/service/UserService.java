@@ -1,9 +1,9 @@
 package com.demo.aws.service;
 
 import com.amazonaws.services.cognitoidp.model.UserType;
-import com.demo.aws.domain.model.Login;
-import com.demo.aws.domain.model.UserSignUp;
-import com.demo.aws.domain.model.response.SuccessResponse;
+import com.demo.aws.domain.request.Login;
+import com.demo.aws.domain.request.UserSignUp;
+import com.demo.aws.domain.response.SuccessResponse;
 
 import javax.validation.constraints.NotNull;
 
