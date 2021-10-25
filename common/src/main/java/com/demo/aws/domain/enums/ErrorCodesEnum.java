@@ -10,7 +10,7 @@ import java.util.Arrays;
 public enum ErrorCodesEnum {
 
     INTERNAL_ERROR(500,"Sorry, something went wrong. Please try again later."),
-    SIGN_IN_ERROR(401,"Sign-In Problem"),
+    SIGN_IN_ERROR(401,"Access denied!"),
     VALIDATION_ERROR(400,"Validation failed"),
     NOT_FOUND_ERROR(404,"Data not found!"),
     DUPLICATE_ERROR(409,"Duplicate data"),

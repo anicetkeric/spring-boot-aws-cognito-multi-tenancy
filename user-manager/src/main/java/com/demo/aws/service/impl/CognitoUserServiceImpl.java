@@ -118,7 +118,7 @@ public class CognitoUserServiceImpl implements CognitoUserService {
         final AdminInitiateAuthRequest authRequest = new AdminInitiateAuthRequest()
                 .withAuthFlow(AuthFlowType.ADMIN_NO_SRP_AUTH)
                 .withClientId(credentials.getClientId())
-                .withUserPoolId(credentials.getClientSecret())
+                .withUserPoolId(credentials.getPoolId())
                 .withAuthParameters(authParams);
 
         return adminInitiateAuthResult(authRequest);
