@@ -30,7 +30,7 @@ public class AuthController {
                 "User account created successfully"), HttpStatus.CREATED);
     }
 
-    @PostMapping("/login")
+    @PostMapping("/sign-in")
     public ResponseEntity<SuccessResponse> login(@RequestBody @Validated Login loginRequest) {
         return new ResponseEntity<>(userService.authenticate(loginRequest), HttpStatus.OK);
     }

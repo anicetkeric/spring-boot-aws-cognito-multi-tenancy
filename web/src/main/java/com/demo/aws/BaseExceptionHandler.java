@@ -38,7 +38,7 @@ public class BaseExceptionHandler {
     }
 
 
-    @ExceptionHandler({FailedAuthenticationException.class, NotAuthorizedException.class, InvalidPasswordException.class , TenantDataNotFoundException.class, TenantAliasNotFoundException.class})
+    @ExceptionHandler({FailedAuthenticationException.class, NotAuthorizedException.class, InvalidPasswordException.class, TenantNotFoundException.class})
     @ResponseStatus(HttpStatus.UNAUTHORIZED)
     public ErrorResponse unauthorizedExceptionHandler(Exception ex) {
         log.error(ex.getMessage(), ex.getLocalizedMessage());
