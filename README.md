@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to spring-boot-aws-cognito-multi-tenancy 👋</h1>
+<h1 align="center">spring-boot-aws-cognito-multi-tenancy</h1>
 <p>
   <a href="https://twitter.com/AnicetKEric" target="_blank">
     <img alt="Twitter: AnicetKEric" src="https://img.shields.io/twitter/follow/AnicetKEric.svg?style=social" />
