@@ -10,7 +10,7 @@ import com.demo.aws.domain.request.Login;
 import com.demo.aws.domain.request.UserSignUp;
 import com.demo.aws.domain.response.AuthenticatedResponse;
 import com.demo.aws.domain.response.SuccessResponse;
-import com.demo.aws.exceptions.TenantDataNotFoundException;
+import com.demo.aws.exceptions.TenantNotFoundException;
 import com.demo.aws.exceptions.UserNotFoundException;
 import com.demo.aws.service.CognitoUserService;
 import com.demo.aws.service.TenantMasterService;
@@ -47,7 +47,7 @@ public class UserServiceImpl implements UserService {
                     .poolId(tenantMaster.get().getUserPoolId())
                     .build();
         }else {
-            throw new TenantDataNotFoundException("Tenant Data not found or not activated");
+            throw new TenantNotFoundException("Tenant Data not found or not activated");
         }
     }
 
